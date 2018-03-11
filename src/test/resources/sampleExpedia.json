@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
 	"offerInfo": {
 		"siteID": "1",
@@ -18,133 +17,74 @@
 				"offerDateRange": {
 					"travelStartDate": [
 						2018,
-						4,
-						2
+						3,
+						14
 					],
 					"travelEndDate": [
 						2018,
-						4,
-						9
+						3,
+						18
 					],
-					"lengthOfStay": 7
+					"lengthOfStay": 4
 				},
 				"destination": {
-					"regionID": "178286",
-					"associatedMultiCityRegionId": "178286",
-					"longName": "Miami (and vicinity), Florida, United States of America",
-					"shortName": "Miami",
+					"regionID": "178305",
+					"associatedMultiCityRegionId": "178305",
+					"longName": "San Francisco (and vicinity), California, United States Of America",
+					"shortName": "San Francisco",
 					"country": "United States of America",
-					"province": "Florida",
-					"city": "Miami",
-					"tla": "FLL",
-					"nonLocalizedCity": "Miami"
+					"province": "California",
+					"city": "San Francisco",
+					"tla": "SJC",
+					"nonLocalizedCity": "San Francisco"
 				},
 				"hotelInfo": {
-					"hotelId": "10980182",
-					"hotelName": "Ocean Reserve OceanView Sunny Isles Luxury Condos",
-					"localizedHotelName": "Ocean Reserve OceanView Sunny Isles Luxury Condos",
-					"hotelDestination": "Sunny Isles Beach",
-					"hotelDestinationRegionID": "10405",
-					"hotelLongDestination": "Sunny Isles Beach,FL,USA",
-					"hotelStreetAddress": "19370-19390 Collins Avenue",
-					"hotelCity": "Sunny Isles Beach",
-					"hotelProvince": "FL",
+					"hotelId": "12671293",
+					"hotelName": "Calista Organic Hotel",
+					"localizedHotelName": "Calista Organic Hotel",
+					"hotelDestination": "San Francisco",
+					"hotelDestinationRegionID": "3132",
+					"hotelLongDestination": "San Francisco,CA,USA",
+					"hotelStreetAddress": "1485 Bush Street",
+					"hotelCity": "San Francisco",
+					"hotelProvince": "CA",
 					"hotelCountryCode": "USA",
-					"hotelLatitude": 25.954881,
-					"hotelLongitude": -80.120417,
-					"hotelStarRating": "4.0",
-					"hotelGuestReviewRating": 2.64,
-					"hotelReviewTotal": 28,
-					"hotelImageUrl": "https://images.trvl-media.com/hotels/11000000/10990000/10980200/10980182/10980182_143_t.jpg",
+					"hotelLatitude": 37.788547,
+					"hotelLongitude": -122.421629,
+					"hotelStarRating": "3.0",
+					"hotelGuestReviewRating": 3.64,
+					"hotelReviewTotal": 194,
+					"hotelImageUrl": "https://images.trvl-media.com/hotels/13000000/12680000/12671300/12671293/0a945c93_t.jpg",
 					"vipAccess": false,
 					"isOfficialRating": false
 				},
 				"hotelPricingInfo": {
-					"averagePriceValue": 211.27,
-					"totalPriceValue": 1478.89,
-					"crossOutPriceValue": 845.02,
-					"originalPricePerNight": 845.02,
+					"averagePriceValue": 201.11,
+					"totalPriceValue": 804.44,
+					"crossOutPriceValue": 628.12,
+					"originalPricePerNight": 628.12,
 					"currency": "USD",
-					"percentSavings": 75,
+					"percentSavings": 67.98,
 					"drr": false
 				},
 				"hotelUrls": {
-					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F10980182%2F2018-04-02%2F2018-04-09",
-					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-04-02%2F2018-04-09%3FSearchType%3DDestination%26CityName%3DSunny+Isles+Beach%26RegionId%3D178286%26Selected%3D10980182"
+					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F12671293%2F2018-03-14%2F2018-03-18",
+					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-03-14%2F2018-03-18%3FSearchType%3DDestination%26CityName%3DSan+Francisco%26RegionId%3D178305%26Selected%3D12671293"
 				}
 			},
 			{
 				"offerDateRange": {
 					"travelStartDate": [
 						2018,
-						5,
-						7
+						3,
+						12
 					],
 					"travelEndDate": [
 						2018,
-						5,
-						8
+						3,
+						18
 					],
-					"lengthOfStay": 1
-				},
-				"destination": {
-					"regionID": "178276",
-					"associatedMultiCityRegionId": "178276",
-					"longName": "Las Vegas (and vicinity), Nevada, United States of America",
-					"shortName": "Las Vegas",
-					"country": "United States of America",
-					"province": "Nevada",
-					"city": "Las Vegas",
-					"tla": "LAS",
-					"nonLocalizedCity": "Las Vegas"
-				},
-				"hotelInfo": {
-					"hotelId": "203613",
-					"hotelName": "Mandalay Bay Resort And Casino",
-					"localizedHotelName": "Mandalay Bay Resort And Casino",
-					"hotelDestination": "Las Vegas",
-					"hotelDestinationRegionID": "2008",
-					"hotelLongDestination": "Las Vegas,NV,USA",
-					"hotelStreetAddress": "3950 Las Vegas Blvd S",
-					"hotelCity": "Las Vegas",
-					"hotelProvince": "NV",
-					"hotelCountryCode": "USA",
-					"hotelLatitude": 36.091961,
-					"hotelLongitude": -115.173037,
-					"hotelStarRating": "4.0",
-					"hotelGuestReviewRating": 4.25,
-					"hotelReviewTotal": 21216,
-					"hotelImageUrl": "https://images.trvl-media.com/hotels/1000000/210000/203700/203613/273ad265_t.jpg",
-					"vipAccess": false,
-					"isOfficialRating": false
-				},
-				"hotelPricingInfo": {
-					"averagePriceValue": 80.42,
-					"totalPriceValue": 80.42,
-					"crossOutPriceValue": 245,
-					"originalPricePerNight": 245,
-					"currency": "USD",
-					"percentSavings": 67.18,
-					"drr": false
-				},
-				"hotelUrls": {
-					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F203613%2F2018-05-07%2F2018-05-08",
-					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-05-07%2F2018-05-08%3FSearchType%3DDestination%26CityName%3DLas+Vegas%26RegionId%3D178276%26Selected%3D203613"
-				}
-			},
-			{
-				"offerDateRange": {
-					"travelStartDate": [
-						2018,
-						9,
-						27
-					],
-					"travelEndDate": [
-						2018,
-						10,
-						4
-					],
-					"lengthOfStay": 7
+					"lengthOfStay": 6
 				},
 				"destination": {
 					"regionID": "178294",
@@ -172,174 +112,38 @@
 					"hotelLongitude": -81.462043,
 					"hotelStarRating": "3.5",
 					"hotelGuestReviewRating": 4.4,
-					"hotelReviewTotal": 6036,
+					"hotelReviewTotal": 6049,
 					"hotelImageUrl": "https://images.trvl-media.com/hotels/2000000/1850000/1841600/1841539/9f0b5112_t.jpg",
 					"vipAccess": true,
 					"isOfficialRating": false
 				},
 				"hotelPricingInfo": {
-					"averagePriceValue": 101.15,
-					"totalPriceValue": 708.05,
-					"crossOutPriceValue": 297.5,
-					"originalPricePerNight": 297.5,
+					"averagePriceValue": 192.15,
+					"totalPriceValue": 1152.9,
+					"crossOutPriceValue": 499.05,
+					"originalPricePerNight": 499.05,
 					"currency": "USD",
-					"percentSavings": 66,
+					"percentSavings": 61.5,
 					"drr": false
 				},
 				"hotelUrls": {
-					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F1841539%2F2018-09-27%2F2018-10-04",
-					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-09-27%2F2018-10-04%3FSearchType%3DDestination%26CityName%3DOrlando%26RegionId%3D178294%26Selected%3D1841539"
+					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F1841539%2F2018-03-12%2F2018-03-18",
+					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-03-12%2F2018-03-18%3FSearchType%3DDestination%26CityName%3DOrlando%26RegionId%3D178294%26Selected%3D1841539"
 				}
 			},
 			{
 				"offerDateRange": {
 					"travelStartDate": [
 						2018,
-						3,
+						8,
+						11
+					],
+					"travelEndDate": [
+						2018,
+						8,
 						13
 					],
-					"travelEndDate": [
-						2018,
-						3,
-						18
-					],
-					"lengthOfStay": 5
-				},
-				"destination": {
-					"regionID": "178280",
-					"associatedMultiCityRegionId": "178280",
-					"longName": "Los Angeles (and vicinity), California, United States Of America",
-					"shortName": "Los Angeles",
-					"country": "United States of America",
-					"province": "California",
-					"city": "Los Angeles",
-					"tla": "QLA",
-					"nonLocalizedCity": "Los Angeles"
-				},
-				"hotelInfo": {
-					"hotelId": "13100360",
-					"hotelName": "El Royale Gardens Near Universal Studios",
-					"localizedHotelName": "El Royale Gardens Near Universal Studios",
-					"hotelDestination": "Studio City",
-					"hotelDestinationRegionID": "9758",
-					"hotelLongDestination": "Studio City,CA,USA",
-					"hotelStreetAddress": "11117 Ventura Blvd",
-					"hotelCity": "Studio City",
-					"hotelProvince": "CA",
-					"hotelCountryCode": "USA",
-					"hotelLatitude": 34.141384,
-					"hotelLongitude": -118.372485,
-					"hotelStarRating": "2.5",
-					"hotelGuestReviewRating": 4.76,
-					"hotelReviewTotal": 132,
-					"hotelImageUrl": "https://images.trvl-media.com/hotels/14000000/13110000/13100400/13100360/b066f4fe_t.jpg",
-					"vipAccess": false,
-					"isOfficialRating": false
-				},
-				"hotelPricingInfo": {
-					"averagePriceValue": 150.54,
-					"totalPriceValue": 752.7,
-					"crossOutPriceValue": 386,
-					"originalPricePerNight": 386,
-					"currency": "USD",
-					"percentSavings": 61,
-					"drr": false
-				},
-				"hotelUrls": {
-					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F13100360%2F2018-03-13%2F2018-03-18",
-					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-03-13%2F2018-03-18%3FSearchType%3DDestination%26CityName%3DStudio+City%26RegionId%3D178280%26Selected%3D13100360"
-				}
-			},
-			{
-				"offerDateRange": {
-					"travelStartDate": [
-						2018,
-						3,
-						8
-					],
-					"travelEndDate": [
-						2018,
-						3,
-						13
-					],
-					"lengthOfStay": 5
-				},
-				"destination": {
-					"regionID": "178293",
-					"associatedMultiCityRegionId": "178293",
-					"longName": "New York (and vicinity), New York, United States of America",
-					"shortName": "New York",
-					"country": "United States of America",
-					"province": "New York",
-					"city": "New York",
-					"tla": "NYC",
-					"nonLocalizedCity": "New York"
-				},
-				"hotelInfo": {
-					"hotelId": "25906",
-					"hotelName": "Salisbury Hotel",
-					"localizedHotelName": "Salisbury Hotel",
-					"hotelDestination": "New York",
-					"hotelDestinationRegionID": "2621",
-					"hotelLongDestination": "New York,NY,USA",
-					"hotelStreetAddress": "123 W 57th St",
-					"hotelCity": "New York",
-					"hotelProvince": "NY",
-					"hotelCountryCode": "USA",
-					"hotelLatitude": 40.764841,
-					"hotelLongitude": -73.978404,
-					"hotelStarRating": "3.0",
-					"hotelGuestReviewRating": 4.1,
-					"hotelReviewTotal": 16450,
-					"hotelImageUrl": "https://images.trvl-media.com/hotels/1000000/30000/26000/25906/4be9c969_t.jpg",
-					"vipAccess": true,
-					"isOfficialRating": false
-				},
-				"hotelPricingInfo": {
-					"averagePriceValue": 166.2,
-					"totalPriceValue": 831,
-					"crossOutPriceValue": 332.4,
-					"originalPricePerNight": 332.4,
-					"currency": "USD",
-					"percentSavings": 50,
-					"drr": false
-				},
-				"hotelUrls": {
-					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F25906%2F2018-03-08%2F2018-03-13",
-					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-03-08%2F2018-03-13%3FSearchType%3DDestination%26CityName%3DNew+York%26RegionId%3D178293%26Selected%3D25906"
-				}
-			}
-		]
-	}
-=======
-{
-	"offerInfo": {
-		"siteID": "1",
-		"language": "en_US",
-		"currency": "USD",
-		"userSelectedCurrency": "USD"
-	},
-	"userInfo": {
-		"persona": {
-			"personaType": "OTHERS"
-		},
-		"userId": "foo"
-	},
-	"offers": {
-		"Hotel": [
-			{
-				"offerDateRange": {
-					"travelStartDate": [
-						2018,
-						4,
-						2
-					],
-					"travelEndDate": [
-						2018,
-						4,
-						9
-					],
-					"lengthOfStay": 7
+					"lengthOfStay": 2
 				},
 				"destination": {
 					"regionID": "178286",
@@ -353,170 +157,52 @@
 					"nonLocalizedCity": "Miami"
 				},
 				"hotelInfo": {
-					"hotelId": "10980182",
-					"hotelName": "Ocean Reserve OceanView Sunny Isles Luxury Condos",
-					"localizedHotelName": "Ocean Reserve OceanView Sunny Isles Luxury Condos",
-					"hotelDestination": "Sunny Isles Beach",
-					"hotelDestinationRegionID": "10405",
-					"hotelLongDestination": "Sunny Isles Beach,FL,USA",
-					"hotelStreetAddress": "19370-19390 Collins Avenue",
-					"hotelCity": "Sunny Isles Beach",
+					"hotelId": "17764",
+					"hotelName": "Beacon Hotel South Beach",
+					"localizedHotelName": "Beacon Hotel South Beach",
+					"hotelDestination": "Miami Beach",
+					"hotelDestinationRegionID": "8833",
+					"hotelLongDestination": "Miami Beach,FL,USA",
+					"hotelStreetAddress": "720 Ocean Dr",
+					"hotelCity": "Miami Beach",
 					"hotelProvince": "FL",
 					"hotelCountryCode": "USA",
-					"hotelLatitude": 25.954881,
-					"hotelLongitude": -80.120417,
+					"hotelLatitude": 25.777089,
+					"hotelLongitude": -80.131287,
 					"hotelStarRating": "4.0",
-					"hotelGuestReviewRating": 2.64,
-					"hotelReviewTotal": 28,
-					"hotelImageUrl": "https://images.trvl-media.com/hotels/11000000/10990000/10980200/10980182/10980182_143_t.jpg",
-					"vipAccess": false,
-					"isOfficialRating": false
-				},
-				"hotelPricingInfo": {
-					"averagePriceValue": 211.27,
-					"totalPriceValue": 1478.89,
-					"crossOutPriceValue": 845.02,
-					"originalPricePerNight": 845.02,
-					"currency": "USD",
-					"percentSavings": 75,
-					"drr": false
-				},
-				"hotelUrls": {
-					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F10980182%2F2018-04-02%2F2018-04-09",
-					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-04-02%2F2018-04-09%3FSearchType%3DDestination%26CityName%3DSunny+Isles+Beach%26RegionId%3D178286%26Selected%3D10980182"
-				}
-			},
-			{
-				"offerDateRange": {
-					"travelStartDate": [
-						2018,
-						5,
-						7
-					],
-					"travelEndDate": [
-						2018,
-						5,
-						8
-					],
-					"lengthOfStay": 1
-				},
-				"destination": {
-					"regionID": "178276",
-					"associatedMultiCityRegionId": "178276",
-					"longName": "Las Vegas (and vicinity), Nevada, United States of America",
-					"shortName": "Las Vegas",
-					"country": "United States of America",
-					"province": "Nevada",
-					"city": "Las Vegas",
-					"tla": "LAS",
-					"nonLocalizedCity": "Las Vegas"
-				},
-				"hotelInfo": {
-					"hotelId": "203613",
-					"hotelName": "Mandalay Bay Resort And Casino",
-					"localizedHotelName": "Mandalay Bay Resort And Casino",
-					"hotelDestination": "Las Vegas",
-					"hotelDestinationRegionID": "2008",
-					"hotelLongDestination": "Las Vegas,NV,USA",
-					"hotelStreetAddress": "3950 Las Vegas Blvd S",
-					"hotelCity": "Las Vegas",
-					"hotelProvince": "NV",
-					"hotelCountryCode": "USA",
-					"hotelLatitude": 36.091961,
-					"hotelLongitude": -115.173037,
-					"hotelStarRating": "4.0",
-					"hotelGuestReviewRating": 4.25,
-					"hotelReviewTotal": 21216,
-					"hotelImageUrl": "https://images.trvl-media.com/hotels/1000000/210000/203700/203613/273ad265_t.jpg",
-					"vipAccess": false,
-					"isOfficialRating": false
-				},
-				"hotelPricingInfo": {
-					"averagePriceValue": 80.42,
-					"totalPriceValue": 80.42,
-					"crossOutPriceValue": 245,
-					"originalPricePerNight": 245,
-					"currency": "USD",
-					"percentSavings": 67.18,
-					"drr": false
-				},
-				"hotelUrls": {
-					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F203613%2F2018-05-07%2F2018-05-08",
-					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-05-07%2F2018-05-08%3FSearchType%3DDestination%26CityName%3DLas+Vegas%26RegionId%3D178276%26Selected%3D203613"
-				}
-			},
-			{
-				"offerDateRange": {
-					"travelStartDate": [
-						2018,
-						9,
-						27
-					],
-					"travelEndDate": [
-						2018,
-						10,
-						4
-					],
-					"lengthOfStay": 7
-				},
-				"destination": {
-					"regionID": "178294",
-					"associatedMultiCityRegionId": "178294",
-					"longName": "Orlando (and vicinity), Florida, United States of America",
-					"shortName": "Orlando",
-					"country": "United States of America",
-					"province": "Florida",
-					"city": "Orlando",
-					"tla": "ORL",
-					"nonLocalizedCity": "Orlando"
-				},
-				"hotelInfo": {
-					"hotelId": "1841539",
-					"hotelName": "The Point Hotel & Suites",
-					"localizedHotelName": "The Point Hotel & Suites",
-					"hotelDestination": "Orlando",
-					"hotelDestinationRegionID": "2693",
-					"hotelLongDestination": "Orlando,FL,USA",
-					"hotelStreetAddress": "7389 Universal Blvd",
-					"hotelCity": "Orlando",
-					"hotelProvince": "FL",
-					"hotelCountryCode": "USA",
-					"hotelLatitude": 28.456084,
-					"hotelLongitude": -81.462043,
-					"hotelStarRating": "3.5",
-					"hotelGuestReviewRating": 4.4,
-					"hotelReviewTotal": 6036,
-					"hotelImageUrl": "https://images.trvl-media.com/hotels/2000000/1850000/1841600/1841539/9f0b5112_t.jpg",
+					"hotelGuestReviewRating": 4.08,
+					"hotelReviewTotal": 2122,
+					"hotelImageUrl": "https://images.trvl-media.com/hotels/1000000/20000/17800/17764/0028695c_t.jpg",
 					"vipAccess": true,
 					"isOfficialRating": false
 				},
 				"hotelPricingInfo": {
-					"averagePriceValue": 101.15,
-					"totalPriceValue": 708.05,
-					"crossOutPriceValue": 297.5,
-					"originalPricePerNight": 297.5,
+					"averagePriceValue": 228.95,
+					"totalPriceValue": 457.9,
+					"crossOutPriceValue": 457.9,
+					"originalPricePerNight": 457.9,
 					"currency": "USD",
-					"percentSavings": 66,
+					"percentSavings": 50,
 					"drr": false
 				},
 				"hotelUrls": {
-					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F1841539%2F2018-09-27%2F2018-10-04",
-					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-09-27%2F2018-10-04%3FSearchType%3DDestination%26CityName%3DOrlando%26RegionId%3D178294%26Selected%3D1841539"
+					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F17764%2F2018-08-11%2F2018-08-13",
+					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-08-11%2F2018-08-13%3FSearchType%3DDestination%26CityName%3DMiami+Beach%26RegionId%3D178286%26Selected%3D17764"
 				}
 			},
 			{
 				"offerDateRange": {
 					"travelStartDate": [
 						2018,
-						3,
-						13
+						4,
+						14
 					],
 					"travelEndDate": [
 						2018,
-						3,
+						4,
 						18
 					],
-					"lengthOfStay": 5
+					"lengthOfStay": 4
 				},
 				"destination": {
 					"regionID": "178280",
@@ -530,52 +216,111 @@
 					"nonLocalizedCity": "Los Angeles"
 				},
 				"hotelInfo": {
-					"hotelId": "13100360",
-					"hotelName": "El Royale Gardens Near Universal Studios",
-					"localizedHotelName": "El Royale Gardens Near Universal Studios",
-					"hotelDestination": "Studio City",
-					"hotelDestinationRegionID": "9758",
-					"hotelLongDestination": "Studio City,CA,USA",
-					"hotelStreetAddress": "11117 Ventura Blvd",
-					"hotelCity": "Studio City",
+					"hotelId": "7866877",
+					"hotelName": "Colony Inn",
+					"localizedHotelName": "Colony Inn",
+					"hotelDestination": "North Hollywood",
+					"hotelDestinationRegionID": "8915",
+					"hotelLongDestination": "North Hollywood,CA,USA",
+					"hotelStreetAddress": "4917 Vineland Ave",
+					"hotelCity": "North Hollywood",
 					"hotelProvince": "CA",
 					"hotelCountryCode": "USA",
-					"hotelLatitude": 34.141384,
-					"hotelLongitude": -118.372485,
+					"hotelLatitude": 34.159892,
+					"hotelLongitude": -118.370621,
 					"hotelStarRating": "2.5",
-					"hotelGuestReviewRating": 4.76,
-					"hotelReviewTotal": 132,
-					"hotelImageUrl": "https://images.trvl-media.com/hotels/14000000/13110000/13100400/13100360/b066f4fe_t.jpg",
+					"hotelGuestReviewRating": 3.25,
+					"hotelReviewTotal": 597,
+					"hotelImageUrl": "https://images.trvl-media.com/hotels/8000000/7870000/7866900/7866877/7866877_67_t.jpg",
 					"vipAccess": false,
 					"isOfficialRating": false
 				},
 				"hotelPricingInfo": {
-					"averagePriceValue": 150.54,
-					"totalPriceValue": 752.7,
-					"crossOutPriceValue": 386,
-					"originalPricePerNight": 386,
+					"averagePriceValue": 145.11,
+					"totalPriceValue": 580.44,
+					"crossOutPriceValue": 290.11,
+					"originalPricePerNight": 290.11,
 					"currency": "USD",
-					"percentSavings": 61,
+					"percentSavings": 49.98,
 					"drr": false
 				},
 				"hotelUrls": {
-					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F13100360%2F2018-03-13%2F2018-03-18",
-					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-03-13%2F2018-03-18%3FSearchType%3DDestination%26CityName%3DStudio+City%26RegionId%3D178280%26Selected%3D13100360"
+					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F7866877%2F2018-04-14%2F2018-04-18",
+					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-04-14%2F2018-04-18%3FSearchType%3DDestination%26CityName%3DNorth+Hollywood%26RegionId%3D178280%26Selected%3D7866877"
 				}
 			},
 			{
 				"offerDateRange": {
 					"travelStartDate": [
 						2018,
-						3,
+						5,
+						2
+					],
+					"travelEndDate": [
+						2018,
+						5,
+						8
+					],
+					"lengthOfStay": 6
+				},
+				"destination": {
+					"regionID": "178276",
+					"associatedMultiCityRegionId": "178276",
+					"longName": "Las Vegas (and vicinity), Nevada, United States of America",
+					"shortName": "Las Vegas",
+					"country": "United States of America",
+					"province": "Nevada",
+					"city": "Las Vegas",
+					"tla": "LAS",
+					"nonLocalizedCity": "Las Vegas"
+				},
+				"hotelInfo": {
+					"hotelId": "1619187",
+					"hotelName": "Polo Towers by Diamond Resorts",
+					"localizedHotelName": "Polo Towers by Diamond Resorts",
+					"hotelDestination": "Las Vegas",
+					"hotelDestinationRegionID": "2008",
+					"hotelLongDestination": "Las Vegas,NV,USA",
+					"hotelStreetAddress": "3745 Las Vegas Blvd S",
+					"hotelCity": "Las Vegas",
+					"hotelProvince": "NV",
+					"hotelCountryCode": "USA",
+					"hotelLatitude": 36.106669,
+					"hotelLongitude": -115.172808,
+					"hotelStarRating": "3.5",
+					"hotelGuestReviewRating": 4.18,
+					"hotelReviewTotal": 3450,
+					"hotelImageUrl": "https://images.trvl-media.com/hotels/2000000/1620000/1619200/1619187/1619187_65_t.jpg",
+					"vipAccess": false,
+					"isOfficialRating": false
+				},
+				"hotelPricingInfo": {
+					"averagePriceValue": 121.12,
+					"totalPriceValue": 726.72,
+					"crossOutPriceValue": 201.86,
+					"originalPricePerNight": 201.86,
+					"currency": "USD",
+					"percentSavings": 40,
+					"drr": false
+				},
+				"hotelUrls": {
+					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F1619187%2F2018-05-02%2F2018-05-08",
+					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-05-02%2F2018-05-08%3FSearchType%3DDestination%26CityName%3DLas+Vegas%26RegionId%3D178276%26Selected%3D1619187"
+				}
+			},
+			{
+				"offerDateRange": {
+					"travelStartDate": [
+						2018,
+						6,
 						8
 					],
 					"travelEndDate": [
 						2018,
-						3,
-						13
+						6,
+						9
 					],
-					"lengthOfStay": 5
+					"lengthOfStay": 1
 				},
 				"destination": {
 					"regionID": "178293",
@@ -589,40 +334,39 @@
 					"nonLocalizedCity": "New York"
 				},
 				"hotelInfo": {
-					"hotelId": "25906",
-					"hotelName": "Salisbury Hotel",
-					"localizedHotelName": "Salisbury Hotel",
+					"hotelId": "64131",
+					"hotelName": "The Roger",
+					"localizedHotelName": "The Roger",
 					"hotelDestination": "New York",
 					"hotelDestinationRegionID": "2621",
 					"hotelLongDestination": "New York,NY,USA",
-					"hotelStreetAddress": "123 W 57th St",
+					"hotelStreetAddress": "131 Madison Ave",
 					"hotelCity": "New York",
 					"hotelProvince": "NY",
 					"hotelCountryCode": "USA",
-					"hotelLatitude": 40.764841,
-					"hotelLongitude": -73.978404,
-					"hotelStarRating": "3.0",
-					"hotelGuestReviewRating": 4.1,
-					"hotelReviewTotal": 16450,
-					"hotelImageUrl": "https://images.trvl-media.com/hotels/1000000/30000/26000/25906/4be9c969_t.jpg",
+					"hotelLatitude": 40.74584,
+					"hotelLongitude": -73.98435,
+					"hotelStarRating": "4.0",
+					"hotelGuestReviewRating": 4.24,
+					"hotelReviewTotal": 666,
+					"hotelImageUrl": "https://images.trvl-media.com/hotels/1000000/70000/64200/64131/f8a7746f_t.jpg",
 					"vipAccess": true,
 					"isOfficialRating": false
 				},
 				"hotelPricingInfo": {
-					"averagePriceValue": 166.2,
-					"totalPriceValue": 831,
-					"crossOutPriceValue": 332.4,
-					"originalPricePerNight": 332.4,
+					"averagePriceValue": 276.48,
+					"totalPriceValue": 276.48,
+					"crossOutPriceValue": 460.48,
+					"originalPricePerNight": 460.48,
 					"currency": "USD",
-					"percentSavings": 50,
+					"percentSavings": 39.96,
 					"drr": false
 				},
 				"hotelUrls": {
-					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F25906%2F2018-03-08%2F2018-03-13",
-					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-03-08%2F2018-03-13%3FSearchType%3DDestination%26CityName%3DNew+York%26RegionId%3D178293%26Selected%3D25906"
+					"hotelInfositeUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Finfo%2F64131%2F2018-06-08%2F2018-06-09",
+					"hotelSearchResultUrl": "https%3A%2F%2Fwww.expedia.com%2Fgo%2Fhotel%2Fsearch%2FDestination%2F2018-06-08%2F2018-06-09%3FSearchType%3DDestination%26CityName%3DNew+York%26RegionId%3D178293%26Selected%3D64131"
 				}
 			}
 		]
 	}
->>>>>>> a8c9a4e16b20a6c0eb2bb5200f21f3f535dafbce
 }
