@@ -1,8 +1,18 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
 
 #body {
-	background-repeat: no-repeat;
-	background-image: url("#{resource['img/travel.png']}");
-	background-size: 100% 700px;
+	/* The image used */
+    background-image: url("#{resource['img/travel.png']}");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #page {
