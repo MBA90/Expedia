@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map; 
+import java.util.Map;
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
@@ -25,14 +25,14 @@ import com.mba.util.Common;
 @ManagedBean(name = "homeBean")
 @RequestScoped
 public class HomeBean implements Serializable {
-	
+
 	/** 
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	
+
 	/**
-	 * Instance Variable 
+	 * Instance Variable
 	 */
 	private String scenario = "deal-finder";
 	private String page = "foo";
@@ -40,84 +40,91 @@ public class HomeBean implements Serializable {
 	private String productType = "Hotel";
 
 	private String destinationName;
-	
+
 	private Date minTripStartDate;
 	private Date maxTripStartDate;
 
 	private Double minStarRating;
 	private Double maxStarRating;
 
-	private Double minTotalRate;
-	private Double maxTotalRate;
-	
+	private Integer minTotalRate;
+	private Integer maxTotalRate;
+
+	private String dataStatus = "";
+
 	private Map<String, String> paramMap;
 
 	private Book book;
 	private Offers offers;
 
 	private List<Hotel> hotelList;
-	
+
 	private OfferHandler offerHandler = new OfferHandlerBean();
-	
+
 	/**
 	 * Init Method
 	 * 
-	 * This method will be call each time the page is requested 
+	 * This method will be call each time the page is requested
 	 */
 	@PostConstruct
 	public void init() {
-		
+
 	}
-	
+
 	/**
 	 * Do offer Search
 	 * 
-	 * This method will call the offer handler and pass the the parameters to, from the Xhtml page 
+	 * This method will call the offer handler and pass the the parameters to, from
+	 * the Xhtml page
 	 * 
 	 * @return string success of fail
 	 */
 	public String doOfferSearch() {
 		try {
-			
+
 			/** call get offer method from offer handler */
 			setBook(offerHandler.getOffers(fillParamMap()));
-			
-			/** Check if the book object is null*/
+
+			/** Check if the book object is null */
 			if (getBook() != null && getBook().getOffers() != null) {
-				
-				/** Get offer object*/
+
+				/** Get offer object */
 				setOffers(getBook().getOffers());
-				
-				/** Check hotel list object is null*/
+
+				/** Check hotel list object is null */
 				if (getOffers().getHotel() != null && getOffers().getHotel().size() > 0) {
-					
-					/** Get the hotel list to display in xhtml page*/
+					setDataStatus("");
+					/** Get the hotel list to display in xhtml page */
 					setHotelList(getOffers().getHotel());
+				} else {
+					setDataStatus("No Data Found"); 
 				}
 			}
 			return "success";
 		} catch (Exception ex) {
-			return "Fail";
+			return "error";
 		}
 	}
-	
+
 	/**
 	 * Fill param map
 	 * 
-	 * @return Map of the parameters thats required to pass while calling the service 
+	 * @return Map of the parameters thats required to pass while calling the
+	 *         service
 	 */
 	private Map<String, String> fillParamMap() {
-		
+
 		/** Get the user input values from xhtml page */
 		String destinationName = getDestinationName();
 		String minTripStartDate = Common.convertDateToString(getMinTripStartDate());
 		String maxTripStartDate = Common.convertDateToString(getMaxTripStartDate());
 		String minStarRating = Common.convertDoubletoString(getMinStarRating());
 		String maxStarRating = Common.convertDoubletoString(getMaxStarRating());
-		String minTotalRate = Common.convertDoubletoString(getMinTotalRate());
-		String maxTotalRate = Common.convertDoubletoString(getMaxTotalRate());
+		String minTotalRate = Common.convertIntegerToString(getMinTotalRate());
+		String maxTotalRate = Common.convertIntegerToString(getMaxTotalRate());
+
 		setParamMap(new HashMap<String, String>());
-		
+
 		/** adding the values to map */
 		getParamMap().put(OfferParam.SCENARIO.param(), scenario);
 		getParamMap().put(OfferParam.PAGE.param(), page);
@@ -146,15 +153,15 @@ public class HomeBean implements Serializable {
 		if (!Common.isBlankOrNull(maxTotalRate)) {
 			getParamMap().put(OfferParam.MAX_TOTAL_RATE.param(), maxTotalRate);
 		}
-		
+
 		return getParamMap();
 	}
-	
+
 	/**
 	 * 
-	 *  Setters and Getters
+	 * Setters and Getters
 	 */
-	
+
 	public String getDestinationName() {
 		return destinationName;
 	}
@@ -195,19 +202,19 @@ public class HomeBean implements Serializable {
 		this.maxStarRating = maxStarRating;
 	}
 
-	public Double getMinTotalRate() {
+	public Integer getMinTotalRate() {
 		return minTotalRate;
 	}
 
-	public void setMinTotalRate(Double minTotalRate) {
+	public void setMinTotalRate(Integer minTotalRate) {
 		this.minTotalRate = minTotalRate;
 	}
 
-	public Double getMaxTotalRate() {
+	public Integer getMaxTotalRate() {
 		return maxTotalRate;
 	}
 
-	public void setMaxTotalRate(Double maxTotalRate) {
+	public void setMaxTotalRate(Integer maxTotalRate) {
 		this.maxTotalRate = maxTotalRate;
 	}
 
@@ -241,6 +248,14 @@ public class HomeBean implements Serializable {
 
 	public void setParamMap(Map<String, String> paramMap) {
 		this.paramMap = paramMap;
+	}
+
+	public String getDataStatus() {
+		return dataStatus;
+	}
+
+	public void setDataStatus(String dataStatus) {
+		this.dataStatus = dataStatus;
 	}
 
 }

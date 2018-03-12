@@ -74,5 +74,21 @@ public class Common {
 		}
 		return doubleInString;
 	}
+	
+	
+	/**
+	 * Convert integer to string method
+	 * 
+	 * 
+	 * @param value Integer
+	 * @return String value in integer format  
+	 */
+	public static String convertIntegerToString(Integer value) {
+		String integerInString = "";
+		if(!isNull(value)) {
+			integerInString = String.valueOf(value);
+		}
+		return integerInString;
+	}
 }  
 
